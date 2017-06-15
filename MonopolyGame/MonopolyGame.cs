@@ -120,7 +120,7 @@ namespace Monopoly
                                 PropertyField property =(PropertyField) currentPlayer.getProperties()[index];
                                 if (property.getHousesCount() < 4)
                                 {
-                                    Console.WriteLine("Masz " + property.getHousesCount() + " apratamentów na tej nieruchomości. Zbudować apartament za " + property.getHouseCost() + "?\n t - tak, n - nie");
+                                    Console.WriteLine("Masz " + property.getHousesCount() + " apartamentów na tej nieruchomości. Zbudować apartament za " + property.getHouseCost() + "?\n t - tak, n - nie");
                                     while (true)
                                     {
                                         choice = Console.ReadLine();

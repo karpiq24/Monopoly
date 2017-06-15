@@ -96,7 +96,7 @@ namespace Monopoly
                 }
                 if (owner == null)
                 {
-                    Console.WriteLine(MonopolyGame.currentPlayer.getName() + " moze kupić " + name);
+                    Console.WriteLine(MonopolyGame.currentPlayer.getName() + " może kupić " + name);
                     Console.WriteLine("Masz: " + MonopolyGame.currentPlayer.getMoney() + " zł");
                     Console.WriteLine("Koszt zakupu: " + basicCost + " zł");
                     Console.WriteLine("Kup - k\nAnuluj - a");

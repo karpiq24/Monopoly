@@ -45,7 +45,7 @@ namespace Monopoly
                 2000)); //Wartosć podatku
 
             MonopolyGame.allFields.Add(new BasePropertyField(
-                "LOTNISKO IM LEACHA WAŁĘSY GDAŃŚK", // Nazwa
+                "LOTNISKO IM LECHA WAŁĘSY GDAŃSK", // Nazwa
                 "lotnisko-gdansk", // Slug
                 PropertyGroup.Airport, // Grupa
                 2000, // Podstawowy koszt
